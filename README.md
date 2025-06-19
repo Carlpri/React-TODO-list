@@ -1,13 +1,77 @@
-# React + Vite
+# 📝 React TODO List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React TODO List application where users can add tasks with corresponding descriptions. It demonstrates the use of React hooks, form handling, and component-based design.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add new TODO tasks with descriptions
+- Controlled input fields using `useState`
+- Display all tasks dynamically
+- Clean and minimal UI
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# React-TODO-list" 
+- [React](https://reactjs.org/)
+- CSS (custom styles in `App.css`)
+- Vite / Create React App (assumed for setup)
+
+## 📂 Project Structure
+
+src/
+├── App.jsx # Main application logic
+├── App.css # Styling for the app
+├── index.js # React entry point
+
+
+## 📦 Setup & Installation
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/react-todo-list.git
+   cd react-todo-list
+
+Install dependencies
+
+bash
+Copy
+Edit
+npm install
+Run the app
+
+bash
+Edit
+```
+npm run dev
+```    
+# If using Vite
+# OR
+```
+npm start
+```     
+# If using Create React App
+Open in browser
+Visit http:<> to view the app.
+
+✏️ Usage
+Type a task name in the first input field.
+
+Type a description in the second input field.
+
+Click Add Task.
+
+The task and its description will be shown below the form.
+
+
+🔧 Future Improvements
+Add task deletion
+
+Mark tasks as complete
+
+Local storage persistence
+
+Edit tasks
+
+📄 License
+This project is open-source and free to use under the MIT License.
+
+Made with ❤️ by Carlos
